@@ -39,7 +39,7 @@ nav {
 }
 
 nav span {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 nav .separator {
@@ -50,4 +50,43 @@ nav .separator {
 }
 nav:last-child {
   padding-right: 24px;
+}
+
+/* banner section */
+
+.banner {
+  display: flex;
+  background-color: lightgray;
+}
+
+.banner-image {
+  width: 60%;
+  margin: 32px 24px;
+}
+
+.banner-image img {
+  width: 100%;
+  height: auto;
+}
+.banner-content {
+  margin: auto 0;
+}
+
+.banner-content h1 {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.banner-content h2 {
+  font-size: 24px;
+  padding: 10px 0;
+}
+
+.button {
+  background-color: gray;
+  color: white;
+  font-size: 20px;
+  padding: 8px 0;
+  text-align: center;
 }
