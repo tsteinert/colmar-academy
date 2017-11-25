@@ -1,0 +1,53 @@
+/* Global definitions */
+
+html {
+  font-family: sans-serif;
+}
+
+/* Header section */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 16px 24px;
+}
+
+.logo p {
+  font-size: 32px;
+  padding-left: 10px;
+}
+
+.logo p {
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.logo p span {
+  color: gray;
+  font-weight: normal;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav span {
+  font-size: 22px;
+}
+
+nav .separator {
+  background-color: cyan;
+  display: inline-block;
+  width: 16px;
+  height: 64px;
+}
+nav:last-child {
+  padding-right: 24px;
+}
