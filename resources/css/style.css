@@ -158,3 +158,31 @@ nav:last-child {
 .information-content-container p:last-child a {
   color: blue;
 }
+
+/* course section */
+
+.courses {
+  background-color: lightgray;
+  padding: 32px 56px;
+}
+
+.courses h1 {
+  font-size: 32px;
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+.course-list {
+  display: flex;
+}
+
+.course {
+  padding: 0 16px;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.course img {
+  width: 100%;
+  height: auto;
+}
