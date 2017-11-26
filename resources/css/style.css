@@ -186,3 +186,17 @@ nav:last-child {
   width: 100%;
   height: auto;
 }
+
+.course-content {
+  padding: 10px 10px;
+}
+
+.course-content h2 {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.course-content p {
+  padding: 10px 10px 10px 0;
+}
