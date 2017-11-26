@@ -4,6 +4,26 @@ html {
   font-family: sans-serif;
 }
 
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* shared definitions */
+
+.banner-image, .information-main {
+  width: 60%;
+}
+
+.banner-image-container, .information-main-container {
+  margin: 32px 24px;
+}
+
+.banner-image img, .information-main img {
+  width: 100%;
+  height: auto;
+}
+
 /* Header section */
 
 header {
@@ -59,22 +79,11 @@ nav:last-child {
   background-color: lightgray;
 }
 
-.banner-image {
-  width: 60%;
-  margin: 32px 24px;
-}
-
-.banner-image img {
-  width: 100%;
-  height: auto;
-}
 .banner-content {
   margin: auto 0;
 }
 
 .banner-content h1 {
-  font-size: 40px;
-  font-weight: bold;
   padding: 10px 0;
 }
 
@@ -89,4 +98,63 @@ nav:last-child {
   font-size: 20px;
   padding: 8px 0;
   text-align: center;
+}
+
+/* Information section */
+
+.information {
+  display: flex;
+}
+
+.information-main-container h1 {
+  font-size: 32px;
+  padding-top: 32px;
+  padding-bottom: 24px;
+}
+
+.information-main-container p:last-child {
+  padding: 32px 0;
+}
+
+.information-secondary {
+  width: 40%;
+}
+
+.information-item:last-child {
+  background-color: lightgray;
+}
+
+.information-item-container {
+  padding: 16px;
+  display: flex;
+}
+
+.information-item-container img {
+  width: 35%;
+}
+
+.information-content {
+  width: 65%;
+}
+
+.information-content-container {
+  height: 100%;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.information-content-container h2 {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.information-content-container p {
+  padding-bottom: 10px;
+  line-height: 1.4;
+}
+
+.information-content-container p:last-child a {
+  color: blue;
 }
