@@ -11,7 +11,13 @@ h1 {
 
 /* shared definitions */
 
-.banner-image, .information-main {
+.courses h1, .thesis h1 {
+  font-size: 32px;
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+.banner-image, .information-main, .large {
   width: 60%;
 }
 
@@ -166,12 +172,6 @@ nav:last-child {
   padding: 32px 56px;
 }
 
-.courses h1 {
-  font-size: 32px;
-  text-align: center;
-  padding-bottom: 32px;
-}
-
 .course-list {
   display: flex;
 }
@@ -208,3 +208,73 @@ nav:last-child {
 }
 
 /* thesis section */
+
+.thesis {
+  padding: 32px 0;
+}
+
+.thesis h1 {
+  padding-bottom: 8px;
+}
+
+.thesis-content {
+  display: flex;
+}
+
+.thesis-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.thesis-column {
+  padding: 24px;
+}
+
+.column-container video {
+  width: 100%;
+  height: auto;
+}
+
+.small {
+  width: 40%;
+  padding-left: 0;
+}
+
+.thesis-info:first-child {
+  background-color: lightgray;
+}
+
+.thesis-info-container {
+  padding: 16px;
+  display: flex;
+}
+
+.image-container {
+  width: 35%;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.thesis-content-container {
+  padding-left: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.thesis-content-container h2 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.thesis-content-container p {
+  font-size: 12px;
+  padding: 10px 0;
+}
