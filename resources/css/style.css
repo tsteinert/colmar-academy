@@ -285,3 +285,12 @@ nav:last-child {
   font-weight: bold;
   font-size: 18px;
 }
+
+/* footer section */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px 48px 16px;
+  border-top: 1px solid black;
+}
