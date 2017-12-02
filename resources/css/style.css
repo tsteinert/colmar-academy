@@ -308,15 +308,28 @@ footer {
 
 @media only screen and (max-width: 850px) {
   /* header section */
+
+  header .logo {
+    flex-grow: 1;
+  }
+
   header .logo p {
     display: none;
+  }
+
+  header nav {
+    flex-grow: 3;
+  }
+
+  nav {
+    justify-content: space-between;
   }
 
   nav .mobile {
     display: block;
   }
 
-  header nav span {
+  header nav span, nav .separator {
     display: none;
   }
 
