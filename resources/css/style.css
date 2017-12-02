@@ -9,6 +9,10 @@ h1 {
   font-weight: bold;
 }
 
+.image-mobile {
+  display: none;
+}
+
 /* shared definitions */
 
 .courses h1, .thesis h1 {
@@ -154,6 +158,7 @@ nav:last-child {
 .information-content-container h2 {
   font-size: 20px;
   padding-bottom: 10px;
+  font-weight: bold;
 }
 
 .information-content-container p {
@@ -293,4 +298,60 @@ footer {
   justify-content: space-between;
   padding: 16px 24px 48px 16px;
   border-top: 1px solid black;
+}
+
+/* Mobile Version */
+
+@media only screen and (max-width: 850px) {
+  /* banner section */
+  .banner {
+    flex-direction: column;
+  }
+
+  .banner-image {
+    width: 100%;
+  }
+
+  .banner-image-container {
+    margin: 0;
+  }
+
+  .banner-content h1 {
+    padding: 32px 16px;
+  }
+
+  .banner-content h2 {
+    padding: 0 16px 24px 16px;
+  }
+
+  .button {
+    margin: 0 16px 24px 16px;
+  }
+
+  /* information section */
+  .information-main {
+    display: none;
+  }
+
+  .information-secondary {
+    width: 100%;
+  }
+
+  .information-item-container {
+    flex-direction: column;
+  }
+
+  .information-item-container img{
+    width: 100%;
+  }
+
+  .image-desktop {
+    display: none;
+  }
+
+  .image-mobile {
+    display: block;
+  }
+
+
 }
