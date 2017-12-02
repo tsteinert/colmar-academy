@@ -348,6 +348,7 @@ footer {
 
   .information-item-container {
     flex-direction: column;
+    padding-bottom: 0;
   }
 
   .information-item-container img{
@@ -362,5 +363,47 @@ footer {
     display: block;
   }
 
+  .information-content {
+    width: 100%
+  }
 
+  .information-content-container {
+    padding: 16px 16px 0 16px;
+    justify-content: flex-start;
+  }
+
+  /* course section */
+
+  .courses {
+    background-color: white;
+    padding: 32px 16px;
+  }
+
+  .course-list {
+    display: block;
+  }
+
+  .course {
+    padding: 0;
+  }
+
+  .course img {
+    display: none;
+  }
+
+  .course-content {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    margin-bottom: 8px;
+  }
+
+  .course-content h2 {
+    padding: 16px 16px 24px 16px;
+    font-weight: normal;
+  }
+
+  .course-content p {
+    display: none;
+  }
 }
