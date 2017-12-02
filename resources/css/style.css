@@ -180,6 +180,8 @@ nav:last-child {
   padding: 0 16px;
   flex-basis: 0;
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .course img {
@@ -188,7 +190,11 @@ nav:last-child {
 }
 
 .course-content {
-  padding: 10px 10px;
+  padding: 10px 10px 24px 10px;
+  background-color: white;
+  flex-basis: 0;
+  flex-grow: 1;
+  margin-bottom: 32px;
 }
 
 .course-content h2 {
@@ -200,3 +206,5 @@ nav:last-child {
 .course-content p {
   padding: 10px 10px 10px 0;
 }
+
+/* thesis section */
