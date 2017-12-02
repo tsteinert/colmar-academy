@@ -68,6 +68,10 @@ nav {
   align-items: center;
 }
 
+nav .mobile {
+  display: none;
+}
+
 nav span {
   font-size: 20px;
 }
@@ -308,6 +312,10 @@ footer {
     display: none;
   }
 
+  nav .mobile {
+    display: block;
+  }
+
   header nav span {
     display: none;
   }
@@ -406,4 +414,28 @@ footer {
   .course-content p {
     display: none;
   }
+
+  /* thesis section */
+
+  .thesis-column {
+    width: 100%;
+  }
+
+  .thesis-column .column-container h2 {
+    display: none;
+  }
+
+  .thesis-column .column-container p {
+    display: none;
+  }
+
+  .thesis-column.small {
+    display: none;
+  }
+
+  /* footer section */
+  footer {
+    border: none;
+  }
+
 }
