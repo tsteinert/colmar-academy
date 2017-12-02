@@ -303,6 +303,15 @@ footer {
 /* Mobile Version */
 
 @media only screen and (max-width: 850px) {
+  /* header section */
+  header .logo p {
+    display: none;
+  }
+
+  header nav span {
+    display: none;
+  }
+
   /* banner section */
   .banner {
     flex-direction: column;
